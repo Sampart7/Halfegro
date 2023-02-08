@@ -1,0 +1,7 @@
+C:\Users\Michał Janaszek\Desktop\Angular CRUD\FullStack API\FullStack.API\FullStack.API\obj\Debug\net6.0\FullStack.API.csproj.AssemblyReference.cache
+C:\Users\Michał Janaszek\Desktop\Angular CRUD\FullStack API\FullStack.API\FullStack.API\obj\Debug\net6.0\FullStack.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michał Janaszek\Desktop\Angular CRUD\FullStack API\FullStack.API\FullStack.API\obj\Debug\net6.0\FullStack.API.AssemblyInfoInputs.cache
+C:\Users\Michał Janaszek\Desktop\Angular CRUD\FullStack API\FullStack.API\FullStack.API\obj\Debug\net6.0\FullStack.API.AssemblyInfo.cs
+C:\Users\Michał Janaszek\Desktop\Angular CRUD\FullStack API\FullStack.API\FullStack.API\obj\Debug\net6.0\FullStack.API.csproj.CoreCompileInputs.cache
+C:\Users\Michał Janaszek\Desktop\Angular CRUD\FullStack API\FullStack.API\FullStack.API\obj\Debug\net6.0\FullStack.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Michał Janaszek\Desktop\Angular CRUD\FullStack API\FullStack.API\FullStack.API\obj\Debug\net6.0\FullStack.API.MvcApplicationPartsAssemblyInfo.cache
