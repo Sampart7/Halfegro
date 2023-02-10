@@ -4,9 +4,11 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\components",
-    "\\src\\app\\components\\employeese",
-    "\\src\\app\\components\\employeese\\employees-list",
-    "\\src\\app\\models"
+    "\\src\\app\\components\\employees",
+    "\\src\\app\\components\\employees\\edit-employee",
+    "\\src\\app\\components\\employees\\employees-list",
+    "\\src\\app\\services"
   ],
+  "SelectedNode": "\\src\\app\\components\\employees\\edit-employee\\edit-employee.component.html",
   "PreviewInSolutionExplorer": false
 }
