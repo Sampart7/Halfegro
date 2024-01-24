@@ -1,0 +1,11 @@
+<div *ngIf="!user">
+    <div class="container">
+        <div *ngIf="!register" style="text-align: center;">    
+          <app-register></app-register>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="user">
+  <a>TU BĘDĄ PRODUKTY</a>
+</div>
