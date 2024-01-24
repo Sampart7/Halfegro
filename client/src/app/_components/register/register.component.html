@@ -6,6 +6,10 @@
     </div>
 
     <div class="mb-3">
+        <app-text-input [formControl]='registerForm.controls["username"]' [label]='"Username"'></app-text-input>
+    </div>
+
+    <div class="mb-3">
         <app-date-input [formControl]='registerForm.controls["dateOfBirth"]' 
             [maxDate]="maxDate" [minDate]="minDate" [label]='"Date Of Birth"'></app-date-input>
     </div>

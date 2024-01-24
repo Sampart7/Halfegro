@@ -23,7 +23,7 @@ namespace API.Migrations
                     PasswordSalt = table.Column<byte[]>(type: "varbinary(max)", nullable: true),
                     DateofBirth = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Created = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    HouseNumber = table.Column<int>(type: "int", nullable: false),
+                    HouseNumber = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Street = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     City = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Country = table.Column<string>(type: "nvarchar(max)", nullable: true)

@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240124123727_Init")]
+    [Migration("20240124151214_Init")]
     partial class Init
     {
         /// <inheritdoc />
@@ -48,8 +48,8 @@ namespace API.Migrations
                     b.Property<string>("Email")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("HouseNumber")
-                        .HasColumnType("int");
+                    b.Property<string>("HouseNumber")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<byte[]>("PasswordHash")
                         .HasColumnType("varbinary(max)");

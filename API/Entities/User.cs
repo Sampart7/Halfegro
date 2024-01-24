@@ -9,7 +9,7 @@ namespace API.Entities
         public byte[] PasswordSalt { get; set; }
         public DateTime DateofBirth { get; set; }
         public DateTime Created { get; set; } = DateTime.UtcNow;
-        public int HouseNumber { get; set; }
+        public string HouseNumber { get; set; }
         public string Street { get; set; }
         public string City { get; set; }
         public string Country { get; set; }

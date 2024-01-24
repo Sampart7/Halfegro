@@ -10,6 +10,6 @@ namespace API.Interfaces
         Task<User> GetUserByIdAsync(int id);
         Task<User> GetUserByEmailAsync(string email);
         Task<List<MemberDTO>> GetMembersAsync();
-        Task<MemberDTO> GetMemberAsync(string email);
+        Task<MemberDTO> GetMemberAsync(string username);
     }
 }

@@ -34,6 +34,7 @@ export class RegisterComponent implements OnInit {
       street: ["", Validators.required],
       city: ["", Validators.required],
       country: ["", Validators.required],
+      username: ["", Validators.required],
       email:["", [
         Validators.required, 
         Validators.pattern("^(?=.{1,64}@)[A-Za-z0-9_-]+(\\.[A-Za-z0-9_-]+)*@" + 
@@ -65,7 +66,7 @@ export class RegisterComponent implements OnInit {
 
   register() {
     this.accountService.register(this.registerForm.value).subscribe({
-      next: () => this.router.navigateByUrl('/members'),
+      next: () => this.router.navigateByUrl('/products'),
       error: error => {
         this.toastr.error(error);
         this.validationErrors = error;

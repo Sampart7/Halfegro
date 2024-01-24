@@ -9,7 +9,7 @@ namespace API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize]
+    //[Authorize]
     public class UsersController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -28,10 +28,10 @@ namespace API.Controllers
             return Ok(users);
         }
 
-        [HttpGet("{email}", Name = "GetUser")]
-        public async Task<ActionResult<MemberDTO>> GetUser(string email)
+        [HttpGet("{username}", Name = "GetUser")]
+        public async Task<ActionResult<MemberDTO>> GetUser(string username)
         {
-            return await _unitOfWork.UserRepository.GetMemberAsync(email);
+            return await _unitOfWork.UserRepository.GetMemberAsync(username);
         }
 
         [HttpPut]

@@ -9,11 +9,14 @@ namespace API.DTOs
         ErrorMessage = "Unvalid email address")]
         public string Email { get; set; }
 
+        [Required(ErrorMessage = "Username is required")]
+        public string Username { get; set; }
+
         [Required(ErrorMessage = "DateOfBirth is required")]
         public DateTime DateOfBirth { get; set; }
 
         [Required(ErrorMessage = "HouseNumber is required")]
-        public int HouseNumber { get; set; }
+        public string HouseNumber { get; set; }
 
         [Required(ErrorMessage = "Street is required")]
         public string Street { get; set; }

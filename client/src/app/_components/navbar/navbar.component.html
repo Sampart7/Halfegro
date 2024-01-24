@@ -13,7 +13,7 @@
         </ul>
 
         <div *ngIf="(accountService.currentUser | async) as user">
-          <button class="btn btn-dark" routerLink="/products">Edit profile</button>
+          <button class="btn btn-dark" routerLink="/edit">Edit profile</button>
           <button class="btn btn-dark" (click)="logout()">Logout</button>
         </div>
       </div>

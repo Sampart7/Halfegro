@@ -1,0 +1,58 @@
+<div class="row mt-5" *ngIf="member">
+    <div class="col-4">
+        <h1>Your profile</h1>
+    </div>
+    <div class="col-8">
+        <div class="alert alert-info" *ngIf="editForm.dirty">
+            <strong>Information: </strong> You have made changes. Any unsaved changes will be lost
+        </div>
+    </div>
+    <div class="col-4">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <strong>Age:</strong>
+                    <p>{{member.age}}</p>
+                </div>
+                <div>
+                    <strong>Location:</strong>
+                    <p>{{member.street}}, {{member.houseNumber}}, {{member.city}}, {{member.country}}</p>
+                </div>
+                <div>
+                    <strong>Member since:</strong>
+                    <p>{{member.created | date}}</p>
+                </div>
+            </div>
+            <div class="card-footer" style="display: flex; justify-content: center;">
+                <button [disabled]="!editForm.dirty" form="editForm" type="submit" class="btn btn-primary">Save Changes</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-8">
+        <form #editForm="ngForm" id="editForm" (ngSubmit)="updateMember()">
+            <h4 class="mt-2">Details: </h4>
+
+                <div class="form-inline mt-2">
+                    <label for="city">House number: </label>
+                    <input [(ngModel)]="member.houseNumber" type="text" name="House number" class="form-control mx-2">
+                </div>
+
+                <div class="form-inline mt-2">
+                    <label for="city">Street: </label>
+                    <input [(ngModel)]="member.street" type="text" name="Street" class="form-control mx-2">
+                </div>
+
+                <div class="form-inline mt-2">
+                    <label for="city">City: </label>
+                    <input [(ngModel)]="member.city" type="text" name="City" class="form-control mx-2">
+                </div>
+                
+                <div class="form-inline mt-2">
+                    <label for="country">Country: </label>
+                    <input [(ngModel)]="member.country" type="text" name="Country" class="form-control mx-2">
+                </div>
+                
+            </form>
+    </div>
+</div>

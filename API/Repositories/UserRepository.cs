@@ -18,10 +18,10 @@ namespace API.Repositories
             _ctx = ctx;
         }
 
-        public async Task<MemberDTO> GetMemberAsync(string email)
+        public async Task<MemberDTO> GetMemberAsync(string username)
         {
             return await _ctx.Users
-                .Where(x => x.Email == email)
+                .Where(x => x.Username == username)
                 .ProjectTo<MemberDTO>(_mapper.ConfigurationProvider)
                 .SingleOrDefaultAsync();
         }

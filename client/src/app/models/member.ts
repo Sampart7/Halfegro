@@ -3,7 +3,7 @@ export interface Member {
     username: string;
     email: string;
     age: number;
-    house: number;
+    houseNumber: string;
     street: string;
     city: string;
     country: string;

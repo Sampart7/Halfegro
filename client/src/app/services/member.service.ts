@@ -17,20 +17,12 @@ export class MembersService {
 
   constructor(private http: HttpClient, private accountService: AccountService) {
     this.accountService.currentUser.pipe(take(1)).subscribe(user => {
-      if (user) {
-        this.user = user;
-      }
+      if (user) this.user = user;
     });
   }
 
-  getMember(email: string){
-    // const member = [...this.memberCache.values()]
-    //   .reduce((arr, elem) => arr.concat(elem.result), [])
-    //   .find((member: Member) => member.email === email);
-
-    // if (member) return of(member);
-
-    return this.http.get<Member>(this.baseUrl + "users/" + email);
+  getMember(username: string){
+    return this.http.get<Member>(this.baseUrl + "users/" + username);
   }
 
   updateMember(member: Member) {
