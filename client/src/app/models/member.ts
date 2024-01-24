@@ -1,10 +1,10 @@
 export interface Member {
     id: number;
+    username: string;
     email: string;
-    photoUrl: string;
     age: number;
-    knownAs: string;
-    created: Date;
+    house: number;
+    street: string;
     city: string;
     country: string;
   }

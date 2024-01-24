@@ -30,7 +30,7 @@ namespace API.Controllers
         {
             if (await UserExists(registerDTO.Email)) return BadRequest("Email is taken");
 
-            var user = _mapper.Map<AppUser>(registerDTO);
+            var user = _mapper.Map<User>(registerDTO);
 
             using var hmac = new HMACSHA512();
 
@@ -43,7 +43,7 @@ namespace API.Controllers
 
             return new UserDTO
             {
-                Email = user.Email,
+                Username = user.Username,
                 Token = _tokenService.CreateToken(user),
             };
         }
@@ -66,7 +66,7 @@ namespace API.Controllers
 
             return new UserDTO
             {
-                Email = user.Email,
+                Username = user.Username,
                 Token = _tokenService.CreateToken(user),
             };
         }

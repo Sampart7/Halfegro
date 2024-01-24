@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0XaDIAo9c+eFnsOut7XJB2PWmYsWEl/ttHD1H4ZCOPt9HdExqu4mJsdj5D+DFJy0aq0n4eIvVpksrbnAqVkg1A==",
+  "dgSpecHash": "CjYjtHw2g9y2mDz/eI1ua8oaRBhYh0/C5+pzN59jVE58gy9uphov1hYMkbg7tlWoy3rwMvXTfQGiVDCRkRcw3w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Michał Janaszek\\Desktop\\Halfegro\\API\\API.csproj",
+  "projectFilePath": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szkoła\\Halfegro\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Michał Janaszek\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Michał Janaszek\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

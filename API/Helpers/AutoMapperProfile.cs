@@ -8,13 +8,13 @@ namespace API.Helpers
     {
         public AutoMapperProfile()
         {
-            CreateMap<AppUser, MemberDTO>()
+            CreateMap<User, MemberDTO>()
                 .ForMember(x => x.Age,
                     option => option.MapFrom(source =>
                         source.DateofBirth.CalculateAge()));
                         
-            CreateMap<MemberUpdateDTO, AppUser>();
-            CreateMap<RegisterDTO, AppUser>();
+            CreateMap<MemberUpdateDTO, User>();
+            CreateMap<RegisterDTO, User>();
             
             CreateMap<DateTime, DateTime>()
                 .ConvertUsing(d => DateTime.SpecifyKind(d, DateTimeKind.Utc));

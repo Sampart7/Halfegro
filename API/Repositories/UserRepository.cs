@@ -1,7 +1,6 @@
 using API.Data;
 using API.DTOs;
 using API.Entities;
-using API.Helpers.Paging;
 using API.Interfaces;
 using AutoMapper;
 using AutoMapper.QueryableExtensions;
@@ -27,43 +26,29 @@ namespace API.Repositories
                 .SingleOrDefaultAsync();
         }
 
-        public async Task<PagedList<MemberDTO>> GetMembersAsync(UserParams userParams)
+        public async Task<List<MemberDTO>> GetMembersAsync()
         {
-            var query = _ctx.Users.AsQueryable();
-
-            query = query.Where(user => user.Email != userParams.CurrentEmail);
-
-            var minBD = DateTime.Today.AddYears(-userParams.MaxAge - 1);
-            var maxDB = DateTime.Today.AddYears(-userParams.MinAge);
-
-            query = query.Where(user => user.DateofBirth >= minBD && user.DateofBirth <= maxDB);
-
-            query = userParams.OrderBy switch
-            {
-                "created" => query.OrderByDescending(user => user.Created)
-            };
-
-            return await PagedList<MemberDTO>.CreateAsync(
-                query.AsNoTracking().ProjectTo<MemberDTO>(_mapper.ConfigurationProvider), 
-                userParams.PageNumber, userParams.PageSize);
+            return await _ctx.Users
+                .ProjectTo<MemberDTO>(_mapper.ConfigurationProvider)
+                .ToListAsync();
         }
 
-        public async Task<AppUser> GetUserByIdAsync(int id)
+        public async Task<User> GetUserByIdAsync(int id)
         {
             return await _ctx.Users.FindAsync(id);
         }
 
-        public async Task<AppUser> GetUserByEmailAsync(string email)
+        public async Task<User> GetUserByEmailAsync(string email)
         {
             return await _ctx.Users.SingleOrDefaultAsync(x => x.Email == email);
         }
 
-        public async Task<IEnumerable<AppUser>> GetUsersAsync()
+        public async Task<IEnumerable<User>> GetUsersAsync()
         {
             return await _ctx.Users.ToListAsync();
         }
 
-        public void Update(AppUser user)
+        public void Update(User user)
         {
             _ctx.Entry(user).State = EntityState.Modified;
         }

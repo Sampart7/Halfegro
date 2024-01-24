@@ -23,6 +23,7 @@ import { PaginationModule } from 'ngx-bootstrap/pagination';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { TimeagoModule } from 'ngx-timeago';
 import { BsModalService } from 'ngx-bootstrap/modal';
+import { ProductsComponent } from './_components/products/products.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { BsModalService } from 'ngx-bootstrap/modal';
     RegisterComponent,
     DateInputComponent,
     TextInputComponent,
+    ProductsComponent,
   ],
   imports: [
     BrowserModule,

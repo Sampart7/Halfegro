@@ -1,8 +1,5 @@
-using System.Security.Claims;
 using API.DTOs;
-using API.Entities;
 using API.Helpers;
-using API.Helpers.Paging;
 using API.Interfaces;
 using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
@@ -10,7 +7,6 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-    [ServiceFilter(typeof(LogUserActivity))]
     [ApiController]
     [Route("api/[controller]")]
     [Authorize]
@@ -25,14 +21,9 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<PagedList<MemberDTO>>> GetUsers([FromQuery]UserParams userParams)
+        public async Task<ActionResult<MemberDTO>> GetUsers()
         {
-            userParams.CurrentEmail = User.GetEmail();
-
-            var users = await _unitOfWork.UserRepository.GetMembersAsync(userParams);
-
-            Response.AddPaginationHeader(new PaginationHeader(users.CurrentPage, 
-                users.PageSize, users.TotalCount, users.TotalPages));
+            var users = await _unitOfWork.UserRepository.GetMembersAsync();
 
             return Ok(users);
         }

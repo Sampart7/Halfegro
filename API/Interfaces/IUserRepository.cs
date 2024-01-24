@@ -1,16 +1,15 @@
 using API.DTOs;
 using API.Entities;
-using API.Helpers.Paging;
 
 namespace API.Interfaces
 {
     public interface IUserRepository
     {
-        void Update(AppUser user);
-        Task<IEnumerable<AppUser>> GetUsersAsync();
-        Task<AppUser> GetUserByIdAsync(int id);
-        Task<AppUser> GetUserByEmailAsync(string email);
-        Task<PagedList<MemberDTO>> GetMembersAsync(UserParams userParams);
+        void Update(User user);
+        Task<IEnumerable<User>> GetUsersAsync();
+        Task<User> GetUserByIdAsync(int id);
+        Task<User> GetUserByEmailAsync(string email);
+        Task<List<MemberDTO>> GetMembersAsync();
         Task<MemberDTO> GetMemberAsync(string email);
     }
 }
