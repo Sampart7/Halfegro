@@ -15,6 +15,7 @@ export class RegisterComponent implements OnInit {
   maxDate: Date = new Date();
   minDate: Date = new Date();
   validationErrors: string[] | undefined
+  registered = false;
 
   constructor(private accountService: AccountService, 
     private toastr: ToastrService, 
@@ -66,7 +67,10 @@ export class RegisterComponent implements OnInit {
 
   register() {
     this.accountService.register(this.registerForm.value).subscribe({
-      next: () => this.router.navigateByUrl('/products'),
+      next: () => {
+        this.toastr.info("Verify your password");
+        this.registered = true;
+      },
       error: error => {
         this.toastr.error(error);
         this.validationErrors = error;
