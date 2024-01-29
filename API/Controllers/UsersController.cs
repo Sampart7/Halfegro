@@ -1,3 +1,4 @@
+using System.Security.Claims;
 using API.DTOs;
 using API.Helpers;
 using API.Interfaces;
@@ -37,8 +38,7 @@ namespace API.Controllers
         [HttpPut]
         public async Task<ActionResult> UpdateUser(MemberUpdateDTO memberUpdateDTO)
         {
-            var email = User.GetEmail();
-            var user = await _unitOfWork.UserRepository.GetUserByEmailAsync(email);
+            var user = await _unitOfWork.UserRepository.GetUserByEmailAsync(memberUpdateDTO.Email);
 
             if (user == null) return NotFound();
 
@@ -46,7 +46,7 @@ namespace API.Controllers
             _unitOfWork.UserRepository.Update(user);
 
             if (await _unitOfWork.Complete()) return NoContent();
-            return BadRequest("Failed to update user");
+             return BadRequest("Failed to update user");
         }
     }
 }
