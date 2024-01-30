@@ -24,8 +24,9 @@ import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { TimeagoModule } from 'ngx-timeago';
 import { BsModalService } from 'ngx-bootstrap/modal';
 import { ProductsComponent } from './_components/products/products.component';
-import { UserEditComponent } from './_components/userEdit/useredit.component';
 import { LoginComponent } from './_components/login/login.component';
+import { ConfirmDialogComponent } from './_components/confirm-dialog/confirm-dialog.component';
+import { UserEditComponent } from './_components/userEdit/user-edit.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +39,7 @@ import { LoginComponent } from './_components/login/login.component';
     ProductsComponent,
     UserEditComponent,
     LoginComponent,
+    ConfirmDialogComponent,
   ],
   imports: [
     BrowserModule,

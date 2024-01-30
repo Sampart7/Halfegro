@@ -8,9 +8,9 @@ import { AccountService } from 'src/app/services/account.service';
 import { MembersService } from 'src/app/services/member.service';
 
 @Component({
-  selector: 'app-userEdit',
-  templateUrl: './userEdit.component.html',
-  styleUrls: ['./userEdit.component.scss']
+  selector: 'app-user-edit',
+  templateUrl: './user-edit.component.html',
+  styleUrls: ['./user-edit.component.scss']
 })
 export class UserEditComponent implements OnInit{
   member!: Member;
@@ -37,9 +37,7 @@ export class UserEditComponent implements OnInit{
   loadMember() {
     if(!this.user) return;
     this.memberService.getMember(this.user.username).subscribe({
-      next: member => {
-        this.member = member
-      }
+      next: member => this.member = member
     })
   }
 
