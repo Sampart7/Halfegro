@@ -25,6 +25,7 @@ import { TimeagoModule } from 'ngx-timeago';
 import { BsModalService } from 'ngx-bootstrap/modal';
 import { ProductsComponent } from './_components/products/products.component';
 import { UserEditComponent } from './_components/userEdit/useredit.component';
+import { LoginComponent } from './_components/login/login.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { UserEditComponent } from './_components/userEdit/useredit.component';
     TextInputComponent,
     ProductsComponent,
     UserEditComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,

@@ -17,11 +17,5 @@
           <button class="btn btn-dark" (click)="logout()">Logout</button>
         </div>
       </div>
-
-      <form #loginForm="ngForm" class="d-flex" (ngSubmit)="login()" autocomplete="off" *ngIf="!(accountService.currentUser | async)" data-bs-theme="light">
-        <input name="email" [(ngModel)]="model.email" class="form-control me-2" type="text" placeholder="Email">
-        <input name="password" [(ngModel)]="model.password" class="form-control me-2" type="password" placeholder="Password">
-        <button class="btn btn-dark" type="submit">Login</button>
-      </form>
     </div>
   </nav>

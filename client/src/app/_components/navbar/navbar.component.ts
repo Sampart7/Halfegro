@@ -9,19 +9,7 @@ import { ToastrService } from 'ngx-toastr';
   styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent {
-  model: any = {}
-
-  constructor(public accountService: AccountService, private router: Router, private toastr: ToastrService) { }
-
-  login() {
-    this.accountService.login(this.model).subscribe({
-      next: () => { 
-        this.router.navigateByUrl("/members") 
-        this.model = {}
-      },
-      error: errorObject => this.toastr.error(errorObject.error)
-    })
-  }
+  constructor(public accountService: AccountService, private router: Router) { }
 
   logout(){
     this.accountService.Logout()

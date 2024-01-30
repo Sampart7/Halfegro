@@ -3,6 +3,7 @@ import { Injectable } from '@angular/core';
 import { BehaviorSubject, map } from 'rxjs';
 import { User } from '../models/user';
 import { environment } from 'src/environments/environment';
+import { Password } from '../models/passwrod';
 
 @Injectable({
   providedIn: 'root'
@@ -40,5 +41,17 @@ export class AccountService {
   setCurrentUser(user: User) {
     localStorage.setItem('user', JSON.stringify(user));
     this.currentUserSource.next(user);
+  }
+
+  verifyAccount(token: string) {
+    return this.http.post(this.baseUrl + 'account/verify', { token });
+  }
+
+  forgotPassword(email: string) {
+    return this.http.post(this.baseUrl + 'account/forgot-password', { email });
+  }
+
+  resetPassword(password: Password) {
+    return this.http.post(this.baseUrl + 'account/reset-password', { password });
   }
 }

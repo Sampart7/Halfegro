@@ -10,10 +10,15 @@ import { AccountService } from 'src/app/services/account.service';
 })
 export class HomeComponent {
   user: User | null = null;
+  alreadyRegistered = false;
 
   constructor(private accountService: AccountService) {
     this.accountService.currentUser.pipe(take(1)).subscribe({
       next: user => this.user = user
     });
+  }
+
+  changeStatus() {
+    this.alreadyRegistered = !this.alreadyRegistered
   }
 }

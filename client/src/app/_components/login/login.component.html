@@ -1,0 +1,25 @@
+<form #loginForm="ngForm" (ngSubmit)="login()"  autocomplete="off" 
+    *ngIf="!(accountService.currentUser | async)" data-bs-theme="light">
+
+    <h2 class="text-center text-secondary">Sign in</h2>
+
+    <input name="email" 
+    [(ngModel)]="model.email" 
+    class="form-control mt-3" 
+    type="text" 
+    placeholder="Email">
+
+    <input name="password" 
+    [(ngModel)]="model.password" 
+    class="form-control mt-3" 
+    type="password" 
+    placeholder="Password">
+
+    <button class="btn btn-dark mt-3" type="submit">
+        Login
+    </button>
+        
+    <button class="btn btn-dark mt-3" type="button">
+        Cancel
+    </button>
+</form>
