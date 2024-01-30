@@ -1,5 +1,5 @@
 <form #loginForm="ngForm" (ngSubmit)="login()"  autocomplete="off" 
-    *ngIf="!(accountService.currentUser | async)" data-bs-theme="light">
+    *ngIf="!forgotedPassword" data-bs-theme="light">
 
     <h2 class="text-center text-secondary">Sign in</h2>
 
@@ -22,4 +22,46 @@
     <button class="btn btn-dark mt-3" type="button">
         Cancel
     </button>
+
+    <button class="btn btn-dark mt-3" type="button" (click)="changeState()">
+        Forgot Password?
+    </button>
 </form>
+
+<form #loginForm="ngForm" (ngSubmit)="forgotPassword()"  autocomplete="off" 
+    *ngIf="forgotedPassword" data-bs-theme="light">
+
+    <h2 class="text-center text-secondary">Forgot password</h2>
+
+    <input name="email" 
+    [(ngModel)]="model.email" 
+    class="form-control mt-3" 
+    type="text" 
+    placeholder="Email">
+
+    <button class="btn btn-dark mt-3" type="submit">
+        Send email
+    </button>
+</form>
+
+<!-- <form #loginForm="ngForm" (ngSubmit)="resetPassword()"  autocomplete="off" 
+    *ngIf="forgotedPassword" data-bs-theme="light">
+
+    <h2 class="text-center text-secondary">Reset password</h2>
+
+    <input name="password" 
+    [(ngModel)]="model.password" 
+    class="form-control mt-3" 
+    type="password" 
+    placeholder="Password">
+
+    <input name="confirmPassword" 
+    [(ngModel)]="model.confirmPassword" 
+    class="form-control mt-3" 
+    type="confirmPassword" 
+    placeholder="confirmPassword">
+
+    <button class="btn btn-dark mt-3" type="submit">
+        Reset password
+    </button>
+</form> -->

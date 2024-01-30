@@ -85,8 +85,9 @@ namespace API.Controllers
         }
 
         [HttpPost("forgot-password")]
-        public async Task<IActionResult> ForgotPassword(string email)
+        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordDTO forgotPasswordDTO)
         {
+            var email = forgotPasswordDTO.Email;
             var user = await _ctx.Users.FirstOrDefaultAsync(u => u.Email == email);
             if (user == null) return BadRequest("User not found.");
 
@@ -98,7 +99,7 @@ namespace API.Controllers
         }
 
         [HttpPost("reset-password")]
-        public async Task<IActionResult> ResettPassword(ResetPasswordDTO resetPasswordDTO)
+        public async Task<IActionResult> ResettPassword([FromBody] ResetPasswordDTO resetPasswordDTO)
         {
             var user = await _ctx.Users.FirstOrDefaultAsync(u => u.PasswordResetToken == resetPasswordDTO.Token);
             if (user == null || user.ResetTokenExpires < DateTime.Now) return BadRequest("Invalid Token.");

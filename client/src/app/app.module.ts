@@ -26,7 +26,7 @@ import { BsModalService } from 'ngx-bootstrap/modal';
 import { ProductsComponent } from './_components/products/products.component';
 import { LoginComponent } from './_components/login/login.component';
 import { ConfirmDialogComponent } from './_components/confirm-dialog/confirm-dialog.component';
-import { UserEditComponent } from './_components/userEdit/user-edit.component';
+import { UserEditComponent } from './_components/user-edit/user-edit.component';
 
 @NgModule({
   declarations: [

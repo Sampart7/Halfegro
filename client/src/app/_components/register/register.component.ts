@@ -14,7 +14,6 @@ export class RegisterComponent implements OnInit {
   registerForm: FormGroup = new FormGroup({});
   maxDate: Date = new Date();
   minDate: Date = new Date();
-  validationErrors: string[] | undefined
   registered = false;
 
   constructor(private accountService: AccountService, 
@@ -36,21 +35,15 @@ export class RegisterComponent implements OnInit {
       city: ["", Validators.required],
       country: ["", Validators.required],
       username: ["", Validators.required],
-      email:["", [
-        Validators.required, 
+      email:["", [ Validators.required, 
         Validators.pattern("^(?=.{1,64}@)[A-Za-z0-9_-]+(\\.[A-Za-z0-9_-]+)*@" + 
         "[^-][A-Za-z0-9-]+(\\.[A-Za-z0-9-]+)*(\\.[A-Za-z]{2,3})$")
       ]],
-      password: ["", [
-        Validators.required, 
-        Validators.minLength(6), 
-        Validators.maxLength(24), 
+      password: ["", [ Validators.required, 
+        Validators.minLength(6), Validators.maxLength(24), 
         Validators.pattern(/^(?=.*[A-Z])(?=.*[!@#$%^&*])[A-Za-z0-9!@#$%^&*]+$/)
       ]],
-      confirmPassword: ["", [
-        Validators.required,
-        this.matchValues("password")
-      ]],
+      confirmPassword: ["", [ Validators.required, this.matchValues("password") ]],
       agreeToTerms: [false, Validators.requiredTrue],
     });
     this.registerForm.controls["password"].valueChanges.subscribe({
@@ -67,18 +60,26 @@ export class RegisterComponent implements OnInit {
 
   register() {
     this.accountService.register(this.registerForm.value).subscribe({
-      next: () => {
+      next: user => {
+        console.log(user)
         this.toastr.info("Verify your password");
         this.registered = true;
       },
-      error: error => {
-        this.toastr.error(error);
-        this.validationErrors = error;
-      }
+      error: error => this.toastr.error(error)
     })
   }
   
   cancel() {
     this.cancelRegister.emit(false);
+  }
+
+  verify(token: string) {
+    this.accountService.verifyAccount(token).subscribe({
+      next: () => {
+        this.toastr.info("Verify your password")
+        this.router.navigateByUrl("/products")
+      },
+      error: error => this.toastr.error(error)
+    })
   }
 }
