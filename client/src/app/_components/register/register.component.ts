@@ -72,14 +72,4 @@ export class RegisterComponent implements OnInit {
   cancel() {
     this.cancelRegister.emit(false);
   }
-
-  verify(token: string) {
-    this.accountService.verifyAccount(token).subscribe({
-      next: () => {
-        this.toastr.info("Verify your password")
-        this.router.navigateByUrl("/products")
-      },
-      error: error => this.toastr.error(error)
-    })
-  }
 }

@@ -18,11 +18,15 @@ namespace API.Controllers
         private readonly ITokenService _tokenService;
         private readonly IMapper _mapper;
 
-        public AccountController(DataContext ctx, ITokenService tokenService, IMapper mapper)
+        private readonly IEmailSender _emailSender;
+
+        public AccountController(DataContext ctx, ITokenService tokenService, 
+            IMapper mapper, IEmailSender emailSender)
         {
             _mapper = mapper;
             _ctx = ctx;
             _tokenService = tokenService;
+            _emailSender = emailSender;
         }
 
         [HttpPost("register")]
@@ -39,6 +43,12 @@ namespace API.Controllers
             user.PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(registerDTO.Password));
             user.PasswordSalt = hmac.Key;
             user.VerificationToken = _tokenService.CreateToken(user);
+
+            var receivier = user.Email;
+            var subject = "Test";
+            var message = "https://localhost:5001/api/account/verify?token=" + user.VerificationToken;
+
+            await _emailSender.SendEmailAsync(receivier, subject, message);
 
             _ctx.Users.Add(user);
             await _ctx.SaveChangesAsync();
@@ -72,7 +82,7 @@ namespace API.Controllers
             };
         }
 
-        [HttpPost("verify")]
+        [HttpGet("verify")]
         public async Task<IActionResult> Verify(string token)
         {
             var user = await _ctx.Users.FirstOrDefaultAsync(u => u.VerificationToken == token);

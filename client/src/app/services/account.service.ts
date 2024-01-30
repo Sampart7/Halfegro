@@ -43,10 +43,6 @@ export class AccountService {
     this.currentUserSource.next(user);
   }
 
-  verifyAccount(token: string) {
-    return this.http.post(this.baseUrl + 'account/verify', { token });
-  }
-
   forgotPassword(email: string) {
     return this.http.post(this.baseUrl + 'account/forgot-password', { email });
   }
