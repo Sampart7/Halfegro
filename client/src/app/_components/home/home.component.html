@@ -2,10 +2,10 @@
     <button (click)="changeStatus()" class="btn btn-dark" type="button">Already registered?</button>
 
     <div class="container">
-        <div *ngIf="!alreadyRegistered" style="text-align: center;">    
+        <div *ngIf="!alreadyRegistered">    
           <app-register></app-register>
         </div>
-        <div *ngIf="alreadyRegistered" style="text-align: center;">    
+        <div *ngIf="alreadyRegistered">    
           <app-login></app-login>
         </div>
     </div>

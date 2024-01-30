@@ -5,9 +5,13 @@ import { HomeComponent } from './_components/home/home.component';
 import { ProductsComponent } from './_components/products/products.component';
 import { UserEditComponent } from './_components/user-edit/user-edit.component';
 import { unsavedChangesGuard } from './_helpers/guards/unsaved-changes.guard';
+import { VerifyComponent } from './_components/verify/verify.component';
+import { ResetPasswordComponent } from './_components/reset-password/reset-password.component';
 
 const routes: Routes = [
   {path: "", component: HomeComponent},
+  {path: 'verify', component: VerifyComponent},
+  {path: 'reset', component: ResetPasswordComponent},
   {path: "", runGuardsAndResolvers: 'always', canActivate: [authGuard], children: [
     {path: "edit", component: UserEditComponent, canDeactivate: [unsavedChangesGuard]},
     {path: "products", component: ProductsComponent}

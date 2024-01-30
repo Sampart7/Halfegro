@@ -17,7 +17,6 @@ namespace API.Controllers
         private readonly DataContext _ctx;
         private readonly ITokenService _tokenService;
         private readonly IMapper _mapper;
-
         private readonly IEmailSender _emailSender;
 
         public AccountController(DataContext ctx, ITokenService tokenService, 
@@ -44,11 +43,9 @@ namespace API.Controllers
             user.PasswordSalt = hmac.Key;
             user.VerificationToken = _tokenService.CreateToken(user);
 
-            var receivier = user.Email;
-            var subject = "Test";
-            var message = "https://localhost:5001/api/account/verify?token=" + user.VerificationToken;
+            var message = "https://localhost:4200/verify?token=" + user.VerificationToken;
 
-            await _emailSender.SendEmailAsync(receivier, subject, message);
+            await _emailSender.SendEmailAsync(user.Email, "Verify", message);
 
             _ctx.Users.Add(user);
             await _ctx.SaveChangesAsync();
@@ -78,7 +75,7 @@ namespace API.Controllers
             {
                 Username = user.Username,
                 Email = user.Email,
-                VerificationToken = user.VerificationToken,
+                Token = _tokenService.CreateToken(user)
             };
         }
 
@@ -103,15 +100,22 @@ namespace API.Controllers
 
             user.PasswordResetToken = _tokenService.CreateToken(user);
             user.ResetTokenExpires = DateTime.Now.AddDays(1);
+
+            var message = "https://localhost:4200/reset?token=" + user.PasswordResetToken;
+
+            await _emailSender.SendEmailAsync(user.Email, "Reset", message);
+
             await _ctx.SaveChangesAsync();
 
-            return Ok("You may now reset your password.");
+            return Ok();
         }
 
         [HttpPost("reset-password")]
-        public async Task<IActionResult> ResettPassword([FromBody] ResetPasswordDTO resetPasswordDTO)
+        public async Task<IActionResult> ResetPassword([FromBody] ResetPasswordDTO resetPasswordDTO)
         {
-            var user = await _ctx.Users.FirstOrDefaultAsync(u => u.PasswordResetToken == resetPasswordDTO.Token);
+            var user = await _ctx.Users
+                .FirstOrDefaultAsync(u => u.PasswordResetToken == resetPasswordDTO.Token);
+
             if (user == null || user.ResetTokenExpires < DateTime.Now) return BadRequest("Invalid Token.");
 
             using var hmac = new HMACSHA512();
@@ -123,7 +127,7 @@ namespace API.Controllers
 
             await _ctx.SaveChangesAsync();
 
-            return Ok("Password successfully reset.");
+            return Ok();
         }
 
         private async Task<bool> UserExists(string name)

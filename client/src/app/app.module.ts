@@ -27,6 +27,8 @@ import { ProductsComponent } from './_components/products/products.component';
 import { LoginComponent } from './_components/login/login.component';
 import { ConfirmDialogComponent } from './_components/confirm-dialog/confirm-dialog.component';
 import { UserEditComponent } from './_components/user-edit/user-edit.component';
+import { VerifyComponent } from './_components/verify/verify.component';
+import { ResetPasswordComponent } from './_components/reset-password/reset-password.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +42,8 @@ import { UserEditComponent } from './_components/user-edit/user-edit.component';
     UserEditComponent,
     LoginComponent,
     ConfirmDialogComponent,
+    VerifyComponent,
+    ResetPasswordComponent,
   ],
   imports: [
     BrowserModule,

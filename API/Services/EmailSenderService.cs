@@ -9,7 +9,9 @@ namespace API.Services
         public Task SendEmailAsync(string email, string subject, string message)
         {
             var mail = "zuberekpl2115@gmail.com";
-            var pw = "zjrlsymuhxwtqdzq";
+            var pw = "zjrlsymuhxwtqdzq"; 
+            //I know it's dangerous, but I hope people aren't that bad. 
+            //Besides, this account is just for testing.
 
             var client = new SmtpClient("smtp.gmail.com", 587)
             {

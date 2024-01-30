@@ -10,7 +10,6 @@ import { Router } from '@angular/router';
   styleUrls: ['./register.component.scss']
 })
 export class RegisterComponent implements OnInit {
-  @Output() cancelRegister = new EventEmitter();
   registerForm: FormGroup = new FormGroup({});
   maxDate: Date = new Date();
   minDate: Date = new Date();
@@ -18,8 +17,7 @@ export class RegisterComponent implements OnInit {
 
   constructor(private accountService: AccountService, 
     private toastr: ToastrService, 
-    private formBuidler: FormBuilder,
-    private router: Router) { }
+    private formBuidler: FormBuilder) { }
 
   ngOnInit(): void {
     this.initializeForm();
@@ -68,8 +66,5 @@ export class RegisterComponent implements OnInit {
       error: error => this.toastr.error(error)
     })
   }
-  
-  cancel() {
-    this.cancelRegister.emit(false);
-  }
+
 }

@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, map } from 'rxjs';
 import { User } from '../models/user';
@@ -43,11 +43,16 @@ export class AccountService {
     this.currentUserSource.next(user);
   }
 
+  verifyAccount(token: string) {
+    const params = new HttpParams().set('token', token);
+    return this.http.get(this.baseUrl + 'account/verify', { params });
+  }
+
   forgotPassword(email: string) {
     return this.http.post(this.baseUrl + 'account/forgot-password', { email });
   }
 
-  resetPassword(password: Password) {
-    return this.http.post(this.baseUrl + 'account/reset-password', { password });
+  resetPassword(passwordData: Password) {
+    return this.http.post(this.baseUrl + 'account/reset-password', passwordData);
   }
 }
