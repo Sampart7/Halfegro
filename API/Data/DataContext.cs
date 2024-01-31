@@ -7,5 +7,8 @@ namespace API.Data
     {
         public DataContext(DbContextOptions options) : base(options) { }
         public DbSet<User> Users { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Stock> Stock { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }
