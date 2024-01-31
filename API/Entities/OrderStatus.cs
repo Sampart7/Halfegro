@@ -2,8 +2,6 @@ namespace API.Entities
 {
     public enum OrderStatus
     {
-        Pending,
-        Packed,
-        Shipped
+        Pending, Packed,Shipped
     }
 }

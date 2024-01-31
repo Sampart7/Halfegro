@@ -2,7 +2,6 @@ using API.DTOs;
 using API.Entities;
 using API.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
 
 [Route("api/[controller]")]
 [ApiController]

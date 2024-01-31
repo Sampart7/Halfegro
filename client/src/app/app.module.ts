@@ -16,7 +16,6 @@ import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { JwtInterceptor } from './_helpers/interceptors/jwt.interceptor';
 import { NavbarComponent } from './_components/navbar/navbar.component';
 import { HomeComponent } from './_components/home/home.component';
-import { RegisterComponent } from './_components/register/register.component';
 import { DateInputComponent } from './forms/date-input/date-input.component';
 import { TextInputComponent } from './forms/text-input/text-input.component';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
@@ -24,11 +23,13 @@ import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import { TimeagoModule } from 'ngx-timeago';
 import { BsModalService } from 'ngx-bootstrap/modal';
 import { ProductsComponent } from './_components/products/products.component';
-import { LoginComponent } from './_components/login/login.component';
 import { ConfirmDialogComponent } from './_components/confirm-dialog/confirm-dialog.component';
-import { UserEditComponent } from './_components/user-edit/user-edit.component';
-import { VerifyComponent } from './_components/verify/verify.component';
-import { ResetPasswordComponent } from './_components/reset-password/reset-password.component';
+import { StocksComponent } from './_components/stocks/stocks.component';
+import { ResetPasswordComponent } from './_components/user/reset-password/reset-password.component';
+import { UserEditComponent } from './_components/user/user-edit/user-edit.component';
+import { LoginComponent } from './_components/user/login/login.component';
+import { VerifyComponent } from './_components/user/verify/verify.component';
+import { RegisterComponent } from './_components/user/register/register.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { ResetPasswordComponent } from './_components/reset-password/reset-passw
     ConfirmDialogComponent,
     VerifyComponent,
     ResetPasswordComponent,
+    StocksComponent,
   ],
   imports: [
     BrowserModule,
