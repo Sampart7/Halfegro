@@ -5,9 +5,6 @@
       <div class="collapse navbar-collapse" *ngIf="accountService.currentUser | async">
         <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link" routerLink="/home" routerLinkActive="active">Register</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" routerLink="/products" routerLinkActive="active">Products</a>
             </li>
             <li class="nav-item">
@@ -16,8 +13,8 @@
         </ul>
 
         <div *ngIf="(accountService.currentUser | async) as user">
-          <button class="btn btn-dark" routerLink="/edit">Edit profile</button>
-          <button class="btn btn-dark" (click)="logout()">Logout</button>
+          <button class="btn btn-secondary" routerLink="/edit">Edit profile</button>
+          <button class="btn btn-secondary" (click)="logout()">Logout</button>
         </div>
       </div>
     </div>

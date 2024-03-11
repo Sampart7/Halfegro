@@ -1,0 +1,702 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\_components\\stocks\\stocks.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\_components\\stocks\\stocks.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\_components\\stocks\\stocks.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\_components\\stocks\\stocks.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\_components\\products\\products.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\_components\\products\\products.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\_components\\products\\products.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\_components\\products\\products.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\app-routing.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\app.module.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\app.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\app.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\app.component.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\app.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\services\\account.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\services\\account.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\services\\busy.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\services\\busy.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\services\\member.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\services\\member.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\services\\product.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\services\\product.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\services\\stock.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\services\\stock.service.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\models\\member.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\models\\member.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\models\\passwrod.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\models\\passwrod.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\models\\product.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\models\\product.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\models\\stock.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\models\\stock.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\_components\\confirm-dialog\\confirm-dialog.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\_components\\confirm-dialog\\confirm-dialog.component.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\_components\\confirm-dialog\\confirm-dialog.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\_components\\confirm-dialog\\confirm-dialog.component.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\client\\src\\app\\models\\user.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{B9049C43-B870-41C0-92AB-0EDB6C005C60}|client\\client.esproj|solutionrelative:client\\src\\app\\models\\user.ts||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\dtos\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\dtos\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\entities\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\dtos\\cartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\dtos\\memberupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\dtos\\memberupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|c:\\program files (x86)\\moje rzeczy\\4 szko\u0142a\\halfegro\\api\\dtos\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5BB7BA4-3F93-44C0-9F5D-01D698987C56}|API\\API.csproj|solutionrelative:api\\dtos\\memberdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "products.component.ts",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\_components\\products\\products.component.ts",
+              "RelativeDocumentMoniker": "client\\src\\app\\_components\\products\\products.component.ts",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\_components\\products\\products.component.ts",
+              "RelativeToolTip": "client\\src\\app\\_components\\products\\products.component.ts",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAUwFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-03-11T21:29:38.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "products.component.html",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\_components\\products\\products.component.html",
+              "RelativeDocumentMoniker": "client\\src\\app\\_components\\products\\products.component.html",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\_components\\products\\products.component.html",
+              "RelativeToolTip": "client\\src\\app\\_components\\products\\products.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-03-11T21:29:18.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "app-routing.module.ts",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\app-routing.module.ts",
+              "RelativeDocumentMoniker": "client\\src\\app\\app-routing.module.ts",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\app-routing.module.ts",
+              "RelativeToolTip": "client\\src\\app\\app-routing.module.ts",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-03-11T21:25:37.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "app.module.ts",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\app.module.ts",
+              "RelativeDocumentMoniker": "client\\src\\app\\app.module.ts",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\app.module.ts",
+              "RelativeToolTip": "client\\src\\app\\app.module.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-03-11T21:25:35.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "app.component.ts",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\app.component.ts",
+              "RelativeDocumentMoniker": "client\\src\\app\\app.component.ts",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\app.component.ts",
+              "RelativeToolTip": "client\\src\\app\\app.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-03-11T21:25:34.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "app.component.scss",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\app.component.scss",
+              "RelativeDocumentMoniker": "client\\src\\app\\app.component.scss",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\app.component.scss",
+              "RelativeToolTip": "client\\src\\app\\app.component.scss",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-03-11T21:25:34.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "app.component.html",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\app.component.html",
+              "RelativeDocumentMoniker": "client\\src\\app\\app.component.html",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\app.component.html",
+              "RelativeToolTip": "client\\src\\app\\app.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-03-11T21:25:33.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "stocks.component.html",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\_components\\stocks\\stocks.component.html",
+              "RelativeDocumentMoniker": "client\\src\\app\\_components\\stocks\\stocks.component.html",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\_components\\stocks\\stocks.component.html",
+              "RelativeToolTip": "client\\src\\app\\_components\\stocks\\stocks.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-03-11T21:22:51.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "stocks.component.ts",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\_components\\stocks\\stocks.component.ts",
+              "RelativeDocumentMoniker": "client\\src\\app\\_components\\stocks\\stocks.component.ts",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\_components\\stocks\\stocks.component.ts",
+              "RelativeToolTip": "client\\src\\app\\_components\\stocks\\stocks.component.ts",
+              "ViewState": "AQIAACMAAAAAAAAAAAAUwC4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-03-11T21:22:59.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "account.service.ts",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\services\\account.service.ts",
+              "RelativeDocumentMoniker": "client\\src\\app\\services\\account.service.ts",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\services\\account.service.ts",
+              "RelativeToolTip": "client\\src\\app\\services\\account.service.ts",
+              "ViewState": "AQIAABkAAAAAAAAAAAA0wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-03-11T21:25:21.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "busy.service.ts",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\services\\busy.service.ts",
+              "RelativeDocumentMoniker": "client\\src\\app\\services\\busy.service.ts",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\services\\busy.service.ts",
+              "RelativeToolTip": "client\\src\\app\\services\\busy.service.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-03-11T21:25:29.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "member.service.ts",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\services\\member.service.ts",
+              "RelativeDocumentMoniker": "client\\src\\app\\services\\member.service.ts",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\services\\member.service.ts",
+              "RelativeToolTip": "client\\src\\app\\services\\member.service.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-03-11T21:25:26.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "product.service.ts",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\services\\product.service.ts",
+              "RelativeDocumentMoniker": "client\\src\\app\\services\\product.service.ts",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\services\\product.service.ts",
+              "RelativeToolTip": "client\\src\\app\\services\\product.service.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-03-11T21:25:25.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "stock.service.ts",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\services\\stock.service.ts",
+              "RelativeDocumentMoniker": "client\\src\\app\\services\\stock.service.ts",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\services\\stock.service.ts",
+              "RelativeToolTip": "client\\src\\app\\services\\stock.service.ts",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-03-11T21:25:22.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "confirm-dialog.component.ts",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\_components\\confirm-dialog\\confirm-dialog.component.ts",
+              "RelativeDocumentMoniker": "client\\src\\app\\_components\\confirm-dialog\\confirm-dialog.component.ts",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\_components\\confirm-dialog\\confirm-dialog.component.ts",
+              "RelativeToolTip": "client\\src\\app\\_components\\confirm-dialog\\confirm-dialog.component.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-03-11T21:22:45.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "confirm-dialog.component.html",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\_components\\confirm-dialog\\confirm-dialog.component.html",
+              "RelativeDocumentMoniker": "client\\src\\app\\_components\\confirm-dialog\\confirm-dialog.component.html",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\_components\\confirm-dialog\\confirm-dialog.component.html",
+              "RelativeToolTip": "client\\src\\app\\_components\\confirm-dialog\\confirm-dialog.component.html",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-03-11T21:22:43.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "member.ts",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\models\\member.ts",
+              "RelativeDocumentMoniker": "client\\src\\app\\models\\member.ts",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\models\\member.ts",
+              "RelativeToolTip": "client\\src\\app\\models\\member.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-03-11T21:22:38.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "passwrod.ts",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\models\\passwrod.ts",
+              "RelativeDocumentMoniker": "client\\src\\app\\models\\passwrod.ts",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\models\\passwrod.ts",
+              "RelativeToolTip": "client\\src\\app\\models\\passwrod.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-03-11T21:22:36.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "product.ts",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\models\\product.ts",
+              "RelativeDocumentMoniker": "client\\src\\app\\models\\product.ts",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\models\\product.ts",
+              "RelativeToolTip": "client\\src\\app\\models\\product.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-03-11T21:22:35.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "stock.ts",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\models\\stock.ts",
+              "RelativeDocumentMoniker": "client\\src\\app\\models\\stock.ts",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\models\\stock.ts",
+              "RelativeToolTip": "client\\src\\app\\models\\stock.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-03-11T21:22:30.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "user.ts",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\models\\user.ts",
+              "RelativeDocumentMoniker": "client\\src\\app\\models\\user.ts",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\client\\src\\app\\models\\user.ts",
+              "RelativeToolTip": "client\\src\\app\\models\\user.ts",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-03-11T21:22:29.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "API",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\API.csproj",
+              "RelativeDocumentMoniker": "API\\API.csproj",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\API.csproj",
+              "RelativeToolTip": "API\\API.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-11T21:16:04.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "API\\Entities\\User.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Entities\\User.cs",
+              "RelativeToolTip": "API\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:12:12.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-11T21:06:48.503Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:06:45.456Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\appsettings.json",
+              "RelativeDocumentMoniker": "API\\appsettings.json",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\appsettings.json",
+              "RelativeToolTip": "API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-11T21:06:36.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Controllers\\CartController.cs",
+              "RelativeToolTip": "API\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAQwAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:05:21.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\DTOs\\UserDTO.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\UserDTO.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\DTOs\\UserDTO.cs",
+              "RelativeToolTip": "API\\DTOs\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:04:53.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StockDTO.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\DTOs\\StockDTO.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\StockDTO.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\DTOs\\StockDTO.cs",
+              "RelativeToolTip": "API\\DTOs\\StockDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:04:51.156Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ResetPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\DTOs\\ResetPasswordDTO.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\ResetPasswordDTO.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\DTOs\\ResetPasswordDTO.cs",
+              "RelativeToolTip": "API\\DTOs\\ResetPasswordDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:04:48.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CartItemDTO.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\DTOs\\CartItemDTO.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\CartItemDTO.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\DTOs\\CartItemDTO.cs",
+              "RelativeToolTip": "API\\DTOs\\CartItemDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:03:33.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "API\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAuwF4AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:03:53.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Stock.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Entities\\Stock.cs",
+              "RelativeDocumentMoniker": "API\\Entities\\Stock.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Entities\\Stock.cs",
+              "RelativeToolTip": "API\\Entities\\Stock.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:11:58.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "API\\Controllers\\UsersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:07:20.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "API\\Entities\\Product.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Entities\\Product.cs",
+              "RelativeToolTip": "API\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:11:53.337Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Entities\\CartItem.cs",
+              "RelativeDocumentMoniker": "API\\Entities\\CartItem.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\Entities\\CartItem.cs",
+              "RelativeToolTip": "API\\Entities\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:12:07.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "API\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:04:46.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\ProductDTO.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "API\\DTOs\\ProductDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:04:42.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "MemberUpdateDTO.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\DTOs\\MemberUpdateDTO.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\MemberUpdateDTO.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\DTOs\\MemberUpdateDTO.cs",
+              "RelativeToolTip": "API\\DTOs\\MemberUpdateDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:04:39.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "MemberDTO.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\DTOs\\MemberDTO.cs",
+              "RelativeDocumentMoniker": "API\\DTOs\\MemberDTO.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Moje rzeczy\\4 Szko\u0142a\\Halfegro\\API\\DTOs\\MemberDTO.cs",
+              "RelativeToolTip": "API\\DTOs\\MemberDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T21:04:38.463Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1908,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:10:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

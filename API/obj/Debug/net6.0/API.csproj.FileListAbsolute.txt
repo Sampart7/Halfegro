@@ -414,9 +414,15 @@ C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\API.M
 C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\staticwebassets.build.json
 C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\staticwebassets.development.json
 C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\scopedcss\bundle\API.styles.css
-C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\API.csproj.CopyComplete
 C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\API.dll
 C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\refint\API.dll
 C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\API.pdb
 C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\API.genruntimeconfig.cache
 C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\ref\API.dll
+C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\API.sourcelink.json
+C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\staticwebassets\msbuild.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\staticwebassets\msbuild.build.API.props
+C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.API.props
+C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.API.props
+C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Program Files (x86)\Moje rzeczy\4 Szkoła\Halfegro\API\obj\Debug\net6.0\API.csproj.Up2Date

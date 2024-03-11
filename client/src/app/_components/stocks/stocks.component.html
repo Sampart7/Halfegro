@@ -1,5 +1,20 @@
-<div *ngFor="let stock of stocks">
-    <h2>{{ stock.id }}</h2>
-    <p>{{ stock.description }}</p>
-    <p>Cena: {{ stock.qty }}</p>
+<form [formGroup]="stockForm" (ngSubmit)="onSubmit()" class="my-4">
+  <div class="mb-3">
+    <label for="qty" class="form-label">Quantity:</label>
+    <input type="number" id="qty" formControlName="qty" class="form-control">
+  </div>
+  <div class="mb-3">
+    <label for="productId" class="form-label">Product ID:</label>
+    <input type="number" id="productId" formControlName="productId" class="form-control">
+  </div>
+  <button type="submit" class="btn btn-info">{{isEditing ? 'Update' : 'Add'}} Stock</button>
+  <button type="button" (click)="resetForm()" class="btn btn-secondary">Clear</button>
+</form>
+
+<div *ngFor="let stock of stocks" class="my-4">
+  <h2>Stock ID: {{ stock.id }}</h2>
+  <p>Product Name: {{stock.product?.name}}</p>
+  <p>Quantity: {{ stock.qty }}</p>
+  <button (click)="editStock(stock)" class="btn btn-info">Edit</button>
+  <button (click)="deleteStock(stock.id)" class="btn btn-warning">Delete</button>
 </div>

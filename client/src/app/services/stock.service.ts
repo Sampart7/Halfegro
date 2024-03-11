@@ -1,18 +1,30 @@
 import { Injectable } from "@angular/core";
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { environment } from "src/environments/environment";
 import { Stock } from "../models/stock";
+import { environment } from "src/environments/environment";
 
 @Injectable({
   providedIn: 'root'
 })
 export class StockService {
-    baseUrl = environment.apiUrl;
+  baseUrl = environment.apiUrl;
 
-    constructor(private http: HttpClient) {}
+  constructor(private http: HttpClient) {}
 
-    getProducts(): Observable<Stock[]> {
-        return this.http.get<Stock[]>(this.baseUrl + "stock");
-    }
+  getStocks(): Observable<Stock[]> {
+    return this.http.get<Stock[]>(this.baseUrl + "stock");
+  }
+
+  createStock(stock: Stock): Observable<Stock> {
+    return this.http.post<Stock>(this.baseUrl + "stock", stock);
+  }
+
+  updateStock(stock: Stock): Observable<void> {
+    return this.http.put<void>(this.baseUrl + "stock/" + stock.id, stock);
+  }
+
+  deleteStock(id: number): Observable<void> {
+    return this.http.delete<void>(this.baseUrl + "stock/" + id);
+  }
 }

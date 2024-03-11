@@ -18,6 +18,7 @@ namespace API.Repositories
         public IUserRepository UserRepository => new UserRepository(_ctx, _mapper);
         public IProductRepository ProductRepository => new ProductRepository(_ctx);
         public IStockRepository StockRepository => new StockRepository(_ctx);
+        public ICartRepository CartRepository => new CartRepository(_ctx);
 
         public async Task<bool> Complete()
         {

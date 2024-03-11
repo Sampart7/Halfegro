@@ -92,9 +92,8 @@ namespace API.Controllers
         }
 
         [HttpPost("forgot-password")]
-        public async Task<IActionResult> ForgotPassword([FromBody] ForgotPasswordDTO forgotPasswordDTO)
+        public async Task<IActionResult> ForgotPassword([FromBody] string email)
         {
-            var email = forgotPasswordDTO.Email;
             var user = await _ctx.Users.FirstOrDefaultAsync(u => u.Email == email);
             if (user == null) return BadRequest("User not found.");
 
